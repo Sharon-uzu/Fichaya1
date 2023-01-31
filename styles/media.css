@@ -1,0 +1,588 @@
+@media screen and (max-width:1000px) {
+  .price{
+    background-color: #000080;
+    width: 100%;
+  }
+  .price .lii #aa{
+    color: #fff;
+  }
+    .h-one{
+        border-radius: 0;
+        height: auto;
+    }
+    header{
+        height: auto;
+       border-radius: 0 ;
+       padding-bottom: 2rem;
+    }
+
+    .nav img{
+        width: 7rem;
+    }
+    .hero-section{
+       flex-direction: column-reverse;
+       width: 95%;
+     }
+     .hero-section .text{
+        width: 95%;
+        margin: auto;
+        margin-top: 3rem;
+     }
+     .hero-section .hero-form{
+        width: 100%;
+        text-align: center;
+        
+     }
+     .hero-section .text h2{
+        font-size: 1.3rem;
+       }
+       .hero-section i{
+        font-size: 20px;
+     }
+     .hero-section p{
+        width: 99%;
+        font-size: 15px;
+     }
+     .hero-section  h4{
+        font-size: 14px;
+      }
+      .hero-section .hero-form form .paragraph p{
+        font-size: 15px;
+      }
+      .hero-section .hero-form form .type button{
+        font-size: 13px;
+
+      }
+     .hero-section .cta{
+        width: 99%;
+     }
+     .hero-section .cta button{
+        font-size: 13px;
+        padding: .6rem 0;
+        width: 47%;
+     }
+     .hero-section .cta #btn2{
+        font-size: 13px;
+        padding: .8rem 1.2rem;
+     }
+      /* BODY SECTION */
+
+  /* ONBOARDING */
+  .onboarding{
+    flex-direction: column;
+    width: 95%;
+  }
+  .onboarding .setup{
+    width: 95%;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .onboarding .setup h4{
+    font-size: 1.2rem;
+  }
+  .onboarding .setup h2{
+    width: 100%;
+    font-size: 28px;
+    line-height: 40px;
+  }
+  .onboarding .setup p{
+    font-size: 17px;
+  }
+  .steps{
+    width: 96%;
+    padding-top: 4rem;
+  }
+  
+  .steps .one  h3{
+    font-size: 21px;
+  }
+  .steps .one  p{
+    font-size: 15px;
+    
+  }
+  .steps .one  .abb-n{
+   display: none;
+   
+  }
+  .steps .one  img{
+    width: 70%;
+   
+  }
+  .steps .one .first{
+   margin-bottom: 2rem;
+  }
+  .steps .one .imgg{
+  height: 9rem;
+  display: flex;
+  align-items: center;
+  }
+  .steps .one .img1{
+    justify-content: end;
+    }
+  
+  .onboarding .setup button{
+    width: 75%;
+    font-size: 1rem;
+    padding: 0.6375rem 0;
+  }
+
+  /* QUALITY */
+  .quality{
+    border-radius: 0;
+  }
+  .quality h2{
+    font-size: 25px;
+  }
+  .quality p{
+    width: 90%;
+  }
+  .quality .cards{
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .quality .cards .card{
+   margin-bottom: 1rem;
+    text-align: center;
+  }
+  .quality .cards .card .imgg{
+    margin: auto;
+  }
+
+
+  /* COVER */
+
+  .cover{
+    width: 90%;
+    flex-direction: column;
+    margin-top: 3rem;
+  }
+  .cover .left{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+  }
+  .cover .left h2{
+    font-size: 22px;
+    line-height: 40px;
+  }
+  .cover .left .offer{
+    width: 100%;
+  }
+  .cover .left .offer .button{
+    padding: 0 .7rem;
+    font-size: 13px;
+  }
+  .cover .left .offer .buttons{
+    padding: 0 1rem;
+    font-size: 14px;
+  }
+  .cover .right{
+    width:95% ;
+    margin: auto;
+    margin-top: 3rem;
+  }
+  .cover .right .box .frst img{
+    width: 12%;
+  }
+  .cover .right .box .frst .imgg{
+    width: 10%;
+  }
+  .cover .right .box h4{
+    font-size: 21px;
+  }
+  .cover .right .box p{
+    font-size: 16px;
+  }
+
+
+
+   /* WHY */
+
+   .why{
+   border-radius: 0;
+   padding-top: 2rem;
+  }
+   .why .content{
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+  .why .content .offers{
+    width: 95%;
+  margin: auto;
+  margin-top: 2rem;
+  }
+  .why .content .offers h5{
+    font-size: 18px;
+  }
+  .why .content .customers{
+    width: 95%;
+    margin: auto;
+  }
+  .why .content .customers .beyond{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  .why .content .customers .beyond h2{
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .why .content .customers .beyond p{
+    font-size: 16px;
+  }
+  .why .content .customers .customer-cards{
+   flex-direction: column;
+  }
+  .why .content .customers .customer-cards .customer1{
+   width: 100%;
+   margin: auto;
+   margin-bottom: 1rem;
+  }
+  .why .content .customers .customer-cards  p{
+    font-size: 16px;
+    width: 89%;
+  }
+
+   /* TRUST */
+   .trust h2{
+    font-size: 30px;
+  }
+   .trust .trust-cards{
+    width: 95%;
+    grid-template-columns: 1fr;
+   }
+   .trust .trust-cards .trust1{
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .trust .trust-cards .trust1 .profile{
+    width: 88%;
+  }
+  
+
+  /* READY */
+
+  .ready{
+    width: 90%;
+    flex-direction: column;
+  }
+  .ready h4{
+    font-size: 20px;
+  }
+  .ready h2{
+    font-size: 22px;
+  }
+  .ready p{
+    font-size: 16px;
+  }
+  .ready .cta{
+    width: 50%;
+    height: 50px;
+    
+  }
+
+ /* FOOTER */
+
+ footer{
+    border-radius: 0;
+    margin-top: 3rem;
+  }
+  footer .footer{
+    width: 90%;
+    padding-top: 2rem;
+    margin: auto;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  footer .main-footer{
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .main-footer .first{
+    width: 90%;
+    margin-bottom: .7rem;
+  }
+  footer ul{
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  footer p{
+    font-size: 14px;
+  }
+  footer .footer h4{
+    font-size: 16px;
+  }
+  footer .main-footer .second{
+    width: 100%;
+    margin-bottom: .7rem;
+  }
+  footer .main-footer .socials{
+    width: 100%;
+  }
+  footer .main-footer .socials .icon1{
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  footer .main-footer .socials .handles{
+    width: 68%;
+  }
+
+
+  /* SERVICE.HTML */
+
+  .s-body{
+    width: 90;
+    flex-direction: column;
+  }
+  .s-body10{
+    width: 90;
+    flex-direction: column-reverse;
+  }
+  .s-body .s-body1{
+    width: 95%;
+    margin: auto;
+  }
+  .s-body .s-body1 h4{
+    font-size: 22px;
+  }
+  .s-body .s-body1 p{
+    font-size: 16px;
+    letter-spacing: .3px;
+  }
+  .s-body .s-body1 a{
+    font-size: 17px;
+  }
+  .s-body .s-body2{
+    width: 95%;
+    text-align: center;
+   margin: auto;
+   margin-bottom: 3rem;
+  }
+
+  .trust h5{
+    font-size: 18px;
+   }
+  .trust .flex{
+    width: 90%;
+   grid-template-columns: 1fr 1fr 1fr;
+   text-align: center;
+  }
+  .trust .flex .s-img{
+   margin-bottom: 1rem;
+  }
+
+  .trust .flex .s-img4 img{
+    width: 98%;
+   
+  }
+  .trust .flex .s-img5 img{
+    width: 30%;
+   
+  }
+
+  /* BECOME.HTML */
+  .become{
+    height: 15rem;
+  }
+  .become .be {
+    width: 65%;
+  }
+  .fixed-form form{
+    width: 90%;
+    height: 95%;
+  }
+  .fixed-form form span{
+   font-size: 18px;
+  }
+  .fixed-form form span h2 {
+    margin-left: 1.3rem;
+    margin-top: 0;
+  }
+  .fixed-form form .part1{
+    grid-template-columns: 1fr;
+  }
+  .fixed-form form .part1 input{
+    margin: auto;
+    margin-top: 1rem;
+  }
+  .fixed-form .submit button{
+    width: 50%;
+  }
+
+
+
+  /* PRICING */
+  .pricing{
+    margin-top: 2rem;
+  }
+  .pricing  h2{
+    font-size: 24px;
+  }
+  .pricing  h6{
+    font-size: 19px;
+  }
+  .pricing .pricing-grid{
+    width: 100%;
+    grid-template-columns: 1fr;
+  } 
+  .pricing .pricing-grid .p-grid1{
+    width: 88%;
+    margin: auto;
+    margin-bottom: 1rem;
+ }
+ .pricing .pricing-grid .p-grid1 h5{
+  font-size: 18px;
+}
+.pricing .pricing-grid .p-content{
+  width: 90%;
+}
+.pricing .pricing-grid .p-content h2{
+  font-size: 16px;
+}
+.pricing .pricing-grid .p-content h3{
+  font-size: 32px;
+}
+.pricing .pricing-grid .star p{
+  margin-left: 6px;
+}
+.p-footer{
+    font-size: 16px;
+}
+.p-body .p-second2{
+ flex-direction: column;
+ }
+
+
+
+/* p-body */
+.p-body .p-first .h3{
+  width: 98%;
+  margin: auto;
+  text-align: center;
+  justify-content: space-between;
+ }
+ .p-body .p-first .h3 h3{
+  font-size: 15px;
+ }
+ .p-body .p-second{
+  width: 90%;
+  grid-template-columns:1fr;
+ }
+ .p-body .p-second .p-get{
+  margin-bottom: .8rem;
+ }
+ .p-body .p-second .p-get h4{
+  font-size: 18px;
+ }
+ .p-body .p-second .p-get .p-tick p{
+  font-size: 16px;
+ } 
+
+ .p-third .p-third-content{
+  width: 95%;
+  padding-bottom: 2rem;
+ }
+ .p-third .p-third-content{
+ flex-direction: column;
+ }
+ .p-third .p-third-content .p-third-left{
+  width: 98%;
+  margin: auto;
+  border-right: none;
+ }
+ .p-third .p-third-content .third-left-content{
+  width: 95%;
+ }
+ .p-third .p-third-content .third-left-content .third-flex{
+  grid-template-columns:1fr;
+ }
+
+ .p-third .p-third-content .p-third-right{
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+ }
+ .p-third .p-third-content .p-third-right .third-right-content .right-content1{
+  width: 85%;
+  flex-direction: column;
+ }
+ .p-third .p-third-content .p-third-right .third-right-content .right-content1 h5{
+  font-size: 2em;
+  margin-bottom: .5rem;
+ }
+ .p-third .p-third-content .p-third-right .third-right-content .right-content2{
+  margin-top: 1rem;
+ }
+ .p-third .p-third-content .p-third-right .third-right-content .right-content2 .content2-left h6{
+  font-size: 15px;
+ }
+ .p-third .p-third-content .third-left-content .button1 button{
+  font-size: 13px;
+ }
+ .content2-right .check h4{
+  font-size: 16px;
+ }
+ .content2-footer button{
+  font-size: 1em;
+ }
+
+
+ /* LOGIN/SIGNUP.HTML */
+ .sign{
+  height: auto;
+ }
+ .sign .sign-content{
+  width: 95%;
+ flex-direction: column;
+ margin-top: 1rem;
+ }
+ .sign .sgn-content{
+  flex-direction: column-reverse;
+ }
+ .sign .sign-content .sign-left{
+  width: 95%;
+  margin: auto;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  padding-bottom: 1rem;
+ }
+ .sign .sign-content .sign-left form{
+  width: 85%;  
+ }
+ .sign .sign-content .sign-left .sign-flex{
+  width: 95%;
+ }
+ .sign .sign-content .sign-left h1{
+  font-size: 23px;
+ }
+ .sign .sign-content .sign-left button{
+  width: 60%;
+  font-size: 13px;
+  padding: 0;
+ }
+ .sign .sign-content .sign-right{
+  width: 95%;
+  margin: auto;
+ }
+ .sign .sign-content .sign-right h1{
+  font-size: 22px;
+ }
+
+ 
+ .sign .sign-content .sign-right button{
+  width: 60%;
+  font-size: 13px;
+  padding: 0;
+ }
+
+ .sign .sign-content .up img{
+  width: 140px;
+
+}
+
+
+
+}
